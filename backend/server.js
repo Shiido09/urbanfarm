@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config(); // Load .env again just in case
-
 const connectDB = require('./config/database'); // Import the database connection
 connectDB(); // Connect to MongoDB
 
